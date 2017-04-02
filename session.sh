@@ -38,3 +38,31 @@ Writing objects: 100% (3/3), 737 bytes | 0 bytes/s, done.
 Total 3 (delta 0), reused 0 (delta 0)
 To https://github.com/dianaqu/info201_hw1.git
    eaea6ab..6e1f98d  master -> master
+Dianas-MacBook-Air:info201_hw1 xiaoyuqu$ git add .
+Dianas-MacBook-Air:info201_hw1 xiaoyuqu$ git commit -m "pic add"
+[master ab49e1a] pic add
+ 2 files changed, 16 insertions(+), 1 deletion(-)
+ create mode 100644 flynn.jpg
+Dianas-MacBook-Air:info201_hw1 xiaoyuqu$ git push
+Counting objects: 4, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 103.85 KiB | 0 bytes/s, done.
+Total 4 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local objects.
+To https://github.com/dianaqu/info201_hw1.git
+   6e1f98d..ab49e1a  master -> master
+Dianas-MacBook-Air:info201_hw1 xiaoyuqu$ git add .
+Dianas-MacBook-Air:info201_hw1 xiaoyuqu$ git commit -m "content in readme added" 
+[master 41df645] content in readme added
+ 1 file changed, 16 insertions(+), 17 deletions(-)
+ rewrite README.md (89%)
+Dianas-MacBook-Air:info201_hw1 xiaoyuqu$ git push
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 1.12 KiB | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/dianaqu/info201_hw1.git
+   ab49e1a..41df645  master -> master
+Dianas-MacBook-Air:info201_hw1 xiaoyuqu$ 
