@@ -23,3 +23,18 @@ To https://github.com/dianaqu/info201_hw1.git
    e31e19d..eaea6ab  master -> master
 Dianas-MacBook-Air:info201_hw1 xiaoyuqu$ touch session.sh
 Dianas-MacBook-Air:info201_hw1 xiaoyuqu$ open session.sh
+Dianas-MacBook-Air:info201_hw1 xiaoyuqu$ git add .
+Dianas-MacBook-Air:info201_hw1 xiaoyuqu$ git commit -m 
+Display all 1470 possibilities? (y or n)
+Dianas-MacBook-Air:info201_hw1 xiaoyuqu$ git commit -m "sh file added"
+[master 6e1f98d] sh file added
+ 1 file changed, 25 insertions(+)
+ create mode 100644 session.sh
+Dianas-MacBook-Air:info201_hw1 xiaoyuqu$ git push
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 737 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/dianaqu/info201_hw1.git
+   eaea6ab..6e1f98d  master -> master
